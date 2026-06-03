@@ -14,7 +14,7 @@ class Userbot(Client):
             name="aliceAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
-            session_string=(config.STRING1),
+            session_string=(config.SESSION1),
             no_updates=True,
         )
         self.two = Client(
