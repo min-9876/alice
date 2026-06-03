@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 # Get your pyrogram v2 session from Replit
 # အောက်ပါအတိုင်း အားလုံးကို ပြင်ရေးပါ
-STRING1 = getenv("SESSION1")
+STRING1 = os.getenv("SESSION1")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
